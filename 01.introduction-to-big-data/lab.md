@@ -20,7 +20,6 @@ You should have received an email from Adaltas containing a `.ovpn` file that yo
 4. Test that everything is working by pinging the edge server:
    ```bash
    ping edge-1.au.adaltas.cloud
-   # 64 bytes from edge-1.au.adaltas.cloud (10.0.0.63): icmp_seq=5 ttl=63 time=56.2 ms
    ```
 
 ### Connecting with SSH
@@ -29,7 +28,7 @@ To interact with the cluster, we will connect to the edge server in order to run
 To connect via SSH:
 
 1. On Windows only, you might have to install Putty: https://www.putty.org/
-2. Check the email you received from Adaltas. You will find your username, password, and a sample SSH command there. My username is gauthier, this is the command I received:
+2. Check the email you received from Adaltas. You will find your username, password, and a sample SSH command there. My username is a.nachid-ece, this is the command I received:
    ```
    ssh a.nachid-ece@edge-1.au.adaltas.cloud
    ```
